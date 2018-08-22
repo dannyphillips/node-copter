@@ -1,24 +1,12 @@
 {
-  "name": "procopter",
-  "version": "1.0.0",
-  "description": "Procore's copter",
-  "main": "flight.js",
+  "name": "drone-browser",
+  "description": "Remote control for your ar-drone via your browser",
+  "version": "0.1.0",
   "dependencies": {
-    "ar-drone": "^0.3.3",
-    "ar-drone-png-stream": "^2.0.0"
+    "express": "~3.0.0",
+    "ar-drone": "git://github.com/felixge/node-ar-drone.git#ccc1e53dea91a9309be034d706235d7e8763065a",
+    "faye": "0.8.x"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dannyphillips/node-copter.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dannyphillips/node-copter/issues"
-  },
-  "homepage": "https://github.com/dannyphillips/node-copter#readme"
+  "repository": "https://github.com/functino/drone-browser.git",
+  "homepage": "https://github.com/functino/drone-browser"
 }
